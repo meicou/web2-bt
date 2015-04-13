@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+
+  <meta charset="utf-8">
+  <title>icook recipe</title>
+</head>
+<body>
+  <!-- background image: http://subtlepatterns.com/patterns/food.png -->
+  <article id="recipe">
+    <h1>【學阿基師做菜】? 15分鐘快速煮肉燥</h1>
+    <img alt="【學阿基師做菜】? 15分鐘快速煮肉燥" class="main-pic" src="http://cdn0.icook.tw/uploads/recipe/cover/70401/large_ae0feb48ad7ddec5.jpg">
+
+      <div class="meta">
+        <span class="fav-count"> <i class="fa fa-heart-o"></i> 2507</span>
+        <span class="views-count"> <i class="fa fa-eye "></i> 58732</span>
+        <time class="timestamp" datetime="2014-02-25"><i class="fa fa-clock-o "></i> 2014 年 02 月 25 日發佈
+        </time>
+        <a class="btn btn-default btn-sm" href="#">
+  <i class="fa fa-cog"></i> Settings</a>
+      </div>
+
+      <div class="recipe-description">
+        <h3><i class="fa fa-cutlery fa-fw"></i> 簡介</h3>
+          <p>貝蒂的「星期一晚餐」總是特別匆忙，不但得提前準備食材，就連煮菜的時間也得控制好，總而言之，就是想儘辦法讓菜快點上桌就是，今天餐桌的肉燥，就是平常看多了阿基師常在節目裡面教的一些小撇步，所以輕鬆快速的煮好肉燥囉?</p>
+
+        <h3><i class="fa fa-cutlery fa-fw"></i> 所需時間</h3>
+        <p>
+          <i class="fa fa-clock-o fa-spin"></i>
+          15 分鐘
+        </p>
+
+        <h3><i class="fa fa-cutlery fa-fw"></i> 食材</h3>
+        <ul class="ingredients">
+          <li>
+            <span class="ingredient-name">豬絞肉</span>
+            <span class="ingredient-unit">500g</span>
+          </li>
+          <li>
+            <span class="ingredient-name">紅蔥醬</span>
+            <span class="ingredient-unit">1大匙</span>
+          </li>
+          <li>
+            <span class="ingredient-name">醬油</span>
+            <span class="ingredient-unit">45ml(或3匙）</span>
+          </li>
+          <li>
+            <span class="ingredient-name">味?</span>
+            <span class="ingredient-unit">15ml(或1匙）</span>
+          </li>
+          <li>
+            <span class="ingredient-name">米酒</span>
+            <span class="ingredient-unit">45ml(或3匙）</span>
+          </li>
+          <li>
+            <span class="ingredient-name">熱水</span>
+            <span class="ingredient-unit">250ml</span>
+          </li>
+          <li>
+            <span class="ingredient-name">Nutella巧克力醬</span>
+            <span class="ingredient-unit">1大匙</span>
+          </li>
+        </ul>
+
+    </div>
+
+
+    <div class="recipe-steps">
+      <h3><i class="fa fa-cutlery fa-fw"></i> 作法</h3>
+     
+      <ol class="step">
+        <li>
+            先將豬絞肉下鍋乾煸（也就是不加任何油的意思），豬絞肉會先有水分，然後水分排乾變成有一點點豬油煸出，繼續煸炒到鍋底不見任何的油份。
+        </li>
+        <li>
+            加入醬油、熱水、味?和米酒，以大火續煮5分鐘
+        </li>
+        <li>
+            再加入紅蔥醬和巧克力醬各1大匙，拿個湯匙輕輕攪拌使巧克力醬融化，此時鍋裡水分會慢慢收乾，收到「有點乾卻看得見湯汁」這樣的程度即可起鍋。
+        </li>
+      </ol>
+    </div>
+
+    <div class="recipe-tips box">
+      <h3><i class="fa fa-lightbulb-o"></i> 小撇步</h3>
+        <p><i class="fa fa-lightbulb-o"></i> 豬絞肉一定要“炒到乾”，這樣肉燥自然就會很爽口不油膩喔</p>
+
+        <p><i class="fa fa-lightbulb-o"></i> Nutella巧克力醬可以用其他牌子巧克力醬替代</p>
+
+        <p>貝蒂臉書粉絲專頁，歡迎大家來參觀^_^
+          <br><a class="btn btn-default btn-sm" href="http://www.facebook.com/BettyHou.liveinuk" ><i class="fa fa-facebook-square"></i> </p>
+    </div>
+      
+  </article>
+</body>
+</html>

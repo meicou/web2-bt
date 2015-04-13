@@ -1,0 +1,142 @@
+.recipe-description h3,
+.recipe-steps h3,
+.recipe-tips h3{
+  font-size:2em;
+  border-bottom:1px solid;
+}
+.timestamp {
+  border-bottom:1px solid;
+}
+.recipe-description p{
+  font: 1em/1.5 serif;
+}
+
+article#recipe{
+  max-width:600px;
+  padding:1em;
+  
+  background: url(http://subtlepatterns.com/patterns/food.png);
+    
+  border-radius:1em;
+}
+
+#recipe h1{
+  font-size: 2em;
+  color: rgba(200, 5, 0, 1);
+  text-shadow: 0px 1px 3px #FFFFFF;
+}
+
+#recipe img{
+  width:100%;
+  padding:1em;
+  background-color:#ffffff;
+  box-sizing:border-box;
+}
+
+.btn btn-default btn-sm{
+  text-align: center; padding: 10px; background: #555;
+ 
+  
+  
+  -webkit-transition-property: opacity;
+  -webkit-transition-duration: .5s;
+  opacity: .7;
+}
+.btn btn-default btn-sm:hover{
+  opacity: 1;
+}
+
+.meta{
+  margin-top:1em;
+}
+
+.meta span{
+  margin-right:2em;
+}
+
+.ingredients{
+  list-style-type:none;
+}
+
+.ingredients>li{
+  padding:3px 10px;
+}
+
+.ingredients>li:nth-child(odd){
+  background-color:rgba(255,255,255,0.5);
+}
+
+.ingredient-name{
+  display:inline-block;
+  width:200px;
+  
+}
+.ingredient-unit{
+  color:blue;
+}
+.step{
+ol.labels-list {
+	list-style-type: none;
+	list-style-type: decimal !ie; /*IE 7- hack*/
+	
+	margin: 0;
+	margin-left: 1em;
+	padding: 0;
+	
+	counter-reset: li-counter;
+}
+ol.labels-list > li{
+	position: relative;
+	margin-bottom: 1.5em;
+	padding: 1.5em;
+	background-color: #eaeaea;
+}
+ol.labels-list > li:before {
+	position: absolute;
+	top: -0.3em;
+	left: -0.5em;
+	width: 1.8em;
+	height: 1.2em;
+	
+	font-size: 2em;
+	line-height: 1.2;
+	font-weight: bold;
+	text-align: center;
+	color: #464646;
+	background-color: #d0d0d0;
+	
+	transform: rotate(-20deg);
+	-ms-transform: rotate(-20deg);
+	-webkit-transform: rotate(-20deg);
+	z-index: 99;
+	overflow: hidden;
+	
+	content: counter(li-counter);
+	counter-increment: li-counter;
+}
+}
+/* This code is tested with latest version of Firefox and Chrome */
+.box {
+  position: relative;
+  margin:2em;
+  padding:1em;
+  background-color: #fff;
+  box-shadow: 0 1px 5px rgba(0,0,0,0.25), 0 0 50px rgba(0,0,0,0.1) inset;
+  border-radius: 2%     0%     0%     0% /     20%     0%     0%     0%;
+}
+.box:before {
+    position: absolute;
+    z-index: -1;
+    content: "";
+    top: 0px;
+    left: 0px;
+    width: 33%;
+    height: 25%;
+    box-shadow: -10px -10px 15px rgba(0,0,0,0.5);
+    -webkit-transform: rotate(7deg) translate(20px,25px) skew(20deg);
+     -moz-transform: rotate(7deg) translate(20px,25px) skew(20deg);
+     -ms-transform: rotate(7deg) translate(20px,25px) skew(20deg);
+     -o-transform: rotate(7deg) translate(20px,25px) skew(20deg);
+     transform: rotate(7deg) translate(20px,25px) skew(20deg);
+    }
+

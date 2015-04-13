@@ -1,0 +1,176 @@
+body{
+ background:url(http://subtlepatterns.com/patterns/tree_bark.png);
+  transition-property: background;
+  transition-duration: 1s;
+  margin-top: 4em;
+}
+
+@media screen and (max-width: 1100px){
+  body{
+    background: url(http://subtlepatterns.com/patterns/symphony.png);    
+  }
+}
+
+@media screen and (max-width: 700px){
+  body{
+    background: url(http://subtlepatterns.com/patterns/restaurant.png);    
+  }
+}
+
+h1{
+  font-size:2em;
+  border-radius:.1em;
+  margin: 20 10 10px;
+  cursor: pointer;
+  font-family: 'Poiret One',cursive,serif;
+  outline: 0;
+  border: 0;
+  width: 10x;
+  padding: .5px 10px 10px 0px;
+  background-color: #003625;
+  color:rgba(230,220,250,1);
+  font-size: 2em;
+  -webkit-box-shadow: inset 0 -1px 10px 0 rgba(0,0,0,.1);
+  box-shadow: inset 0 -1px 10px 0 rgba(0,0,0,.1);
+  -webkit-transition: background 150ms ease-in-out;
+  -moz-transition: background 150ms ease-in-out;
+  -ms-transition: background 150ms ease-in-out;
+  -o-transition: background 150ms ease-in-out;
+  transition: background 150ms ease-in-out;
+  outline: 3px dashed #195046;
+  outline-offset: 2.6px;
+}
+  
+.box {
+  float: center;
+  margin: 10 auto;
+  background-color:#ffffff;
+  box-sizing:border-box;
+  width:80%;
+  padding:1em;
+  list-style-type:none;
+}
+
+.box>li{
+  background-color:#009572;
+  position:relative;
+  padding:6.9px 10px; 
+
+}
+
+.box>li:nth-child(odd){
+  background-color:#00CB9C;
+}
+
+.box-name{
+  font-weight: 900;
+  color: #E2F8FF;
+  display:inline-block;
+ float:left;
+  width:50%;
+  clear:both;
+  
+}
+.box-unit{
+  display:inline-block;
+  width:50%;
+   float:left;
+  color: #003625;
+}
+.box>li:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.after-box {
+  clear: left;
+}  
+
+.detail h2{
+  color:#003625;
+  font-size:1.5em;
+  font-family:Arial, "文泉驛正黑", "WenQuanYi Zen Hei", "儷黑 Pro", "LiHei Pro", "微軟正黑體", "Microsoft JhengHei", sans-serif; 
+  border-bottom:5px solid ;
+  border-color:#003625;
+}
+
+.detail p,
+.detail ol{
+  font: 1em/1.5 serif;
+  font-family:Arial, "文泉驛正黑", "WenQuanYi Zen Hei", "儷黑 Pro", "LiHei Pro", "微軟正黑體", "Microsoft JhengHei", sans-serif;
+  color:#195046;
+}
+
+ol.simple-list {
+    list-style-type: none;
+    list-style-type: decimal !ie; /*IE 7- hack*/
+     
+    margin: 0;
+    margin-left: 3em;
+    padding: 0;
+     
+    counter-reset: li-counter;
+}
+ol.simple-list > li{
+    position: relative;
+    margin-bottom: 2px;
+    padding-left: 1em;
+    min-height: 2em;
+    border-left: 4px solid #CCCCCC;
+}
+ol.simple-list > li:before {
+    position: absolute;
+    top: 0;
+    left: -1.2em;
+    width: .8em;
+     
+    font-size: 1.5em;
+    line-height: 1;
+    font-weight: bold;
+    text-align: right;
+    color: #464646;
+ 
+    content: counter(li-counter);
+    counter-increment: li-counter;
+}
+
+.ability {
+  position: relative;
+  margin:4em;
+  padding:1em;
+  background-color: #fff;
+  box-shadow: 0 1px 5px rgba(0,0,0,0.25), 0 0 50px rgba(0,0,0,0.1) inset;
+  border-radius: 2%     0%     0%     0% /     20%     0%     0%     0%;
+}
+.ability:before {
+    position: absolute;
+    z-index: -1;
+    content: "";
+    top: 0px;
+    left: 0px;
+    width: 33%;
+    height: 25%;
+    box-shadow: -10px -10px 15px rgba(0,0,0,0.5);
+    -webkit-transform: rotate(7deg) translate(20px,25px) skew(20deg);
+     -moz-transform: rotate(7deg) translate(20px,25px) skew(20deg);
+     -ms-transform: rotate(7deg) translate(20px,25px) skew(20deg);
+     -o-transform: rotate(7deg) translate(20px,25px) skew(20deg);
+     transform: rotate(7deg) translate(20px,25px) skew(20deg);
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
