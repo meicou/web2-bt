@@ -1,14 +1,33 @@
-<form >
+<link href="//code.jquery.com/ui/jquery-ui-git.css" rel="stylesheet" type="text/css" />
+<script src="//code.jquery.com/jquery-git.js"></script>
+<script src="//code.jquery.com/ui/jquery-ui-git.js"></script><form class="form-horizontal">
+  <script src="//code.jquery.com/jquery.min.js"></script>
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
   <link rel="stylesheet" href="pro.css">
   <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/pure-min.css">
   <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 <div style="width:60%;margin:0 auto; ">
   <h1 id=a>Survey</h1>
     <img src="https://s-media-cache-ak0.pinimg.com/736x/5a/09/6a/5a096ada88c8065b3c5d64ada0333519.jpg" class="pinImage" >
-<div>
-  <label for="name" class="Q"> Your name</label>
-  <input name="name" type="text" id="name" tabindex="1" placeholder="Your name" required="required" /> <i class="fa fa-pencil"></i>
-</div>
+
+   <div class="form-group has-success has-feedback">
+     <div class="control-label col-sm-6">
+    <label class="Q" for="inputSuccess3">Your name</label>
+      <input type="text" class="form-control" id="inputSuccess3" aria-describedby="inputSuccess3Status" tabindex="1" placeholder="Your name" required="required">
+      <span class="glyphicon glyphicon-ok form-control-feedback" aria-hidden="true"></span>
+      <span id="inputSuccess3Status" class="sr-only">(success)</span>
+  </div>
+<div class="control-label col-sm-6">
+    <label class="Q" for="inputGroupSuccess2">Birthday</label>
+
+      <div class="input-group">
+        <span class="input-group-addon"><i class="fa fa-table"></i></span>
+        <input type="text" class="form-control" id="inputGroupSuccess2" aria-describedby="inputGroupSuccess2Status" placeholder="Birthday" required="required">
+      </div>
+      <span class="glyphicon glyphicon-ok form-control-feedback" aria-hidden="true"></span>
+      <span id="inputGroupSuccess2Status" class="sr-only">(success)</span>
+    </div>
 
   <label class="Q">What is your gender？</label>
   <p>  
@@ -20,10 +39,7 @@
     <label>Female</label>
   </p>
   <div class="afterImage1"></div>
-<p>
-  <label for="day" class="Q">Birthday</label>
-  <i class="fa fa-table"></i> <input type="text" name="b" id="day" placeholder="Birthday" required="required"/>
-</p>
+
 <p>
   <label class="Q"></i> Which form of transport do you use?</label>
   <ul class="transport">    
@@ -61,9 +77,12 @@
       </a></li>  
   </ul>
 </p>
-<p>
+
   <label class="Q"> What is the highest level of education you have completed? </label>
   <ul class="edu">
+    <div class="container">
+  <div class="row">
+    <div class="col-sm-4">
    <li type="none"><a class="pure-button pure-button-active" href="#">
     <input type="radio" name="edu" value="小">
     <label>Less than High School</label>
@@ -75,7 +94,8 @@
    <li type="none"><a class="pure-button pure-button-active" href="#">
     <input type="radio" name="edu" value="大">
     <label>Attended College / University</label>
-   </li></a>
+   </li></a></div>
+  <div class="col-sm-4">
    <li type="none"><a class="pure-button pure-button-active" href="#">
     <input type="radio" name="edu" value="相">
     <label>Associate degree</label>
@@ -87,7 +107,8 @@
    <li type="none"><a class="pure-button pure-button-active" href="#">
     <input type="radio" name="edu" value="M">
     <label>Master`s degree</label>
-   </li></a>
+   </li></a></div>
+<div class="col-sm-4">
    <li type="none"><a class="pure-button pure-button-active" href="#">
     <input type="radio" name="edu" value="教">
     <label>Professional degree</label>
@@ -99,12 +120,14 @@
    <li type="none"><a class="pure-button pure-button-active" href="#">
     <input type="radio" name="edu" value="無">
     <label>I prefer not to answer</label>
-   </li></a>
+   </li></a></div></div>
+</div>
   </ul>
 
-<p>
+ <div class="two fields">
+    <div class="field">
   <label class="Q">Which industry do you work in or are most involved with?</label>
-  <br><select>
+  <br><select class="ui search dropdown">
     <option>Accounting</option>
     <option>Writing & Editing </option>
     <option>Animation </option>
@@ -114,20 +137,34 @@
     <option>Computer Games </option>
     <option>Information Technology & Services </option>
   </select>
-</p>
-<p>
-  <label for="what" class="Q">Your phone <i class="fa fa-mobile"></i></label>
-  <input type="number" placeholder="Phone" required="required"/>
-</p>
-<p>
-  <label for="what" class="Q">Email address</label>
-  <input type="email" name="email" placeholder="Email" required="required"/>
-</p>
-<p>
-  <label for="what" class="Q">Personal website</label>
-  <input type="text" name="w" placeholder="https://" required="required"/>
-</p>
-<input type="submit" value="送出" >
+</div>
+   <div class="field"></div>
+   </div>
+<div class="control-label">
+  <label class="Q" for="inputSuccess3">Your phone <i class="fa fa-mobile"></i></label>
+      <input type="number" class="form-control" id="inputSuccess3" aria-describedby="inputSuccess3Status" placeholder="Phone" required="required"/>
+      <span class="glyphicon glyphicon-ok form-control-feedback" aria-hidden="true"></span>
+      <span id="inputSuccess3Status" class="sr-only"></span>
+  </div>
+<div class="control-label">
+  <label class="Q" for="inputSuccess3">Email address<i class="fa fa-mobile"></i></label>
+      <input type="email" class="form-control" id="inputSuccess3" aria-describedby="inputSuccess3Status" placeholder="Email" required="required"/>
+      <span class="glyphicon glyphicon-ok form-control-feedback" aria-hidden="true"></span>
+      <span id="inputSuccess3Status" class="sr-only"></span>
+  </div>
+
+  <div class="control-label ">
+    <label class="Q" for="inputSuccess3">Personal website</label>
+      <input type="text" class="form-control" id="inputSuccess3" aria-describedby="inputSuccess3Status" tabindex="1" placeholder="https://" required="required">
+      <span class="glyphicon glyphicon-ok form-control-feedback" aria-hidden="true"></span>
+      <span id="inputSuccess3Status" class="sr-only"></span>
+  </div>
+<div class="row">
+  <div class="col-xs-offset-4">
+<button type="button" class="btn btn-primary btn-lg active">送出</button>
+<button type="button" class="btn btn-default btn-lg active">重填</button>
+</div>
+  </div>
 </div>
 </div>
 </form>
