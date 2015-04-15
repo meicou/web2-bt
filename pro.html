@@ -1,6 +1,7 @@
 <link href="//code.jquery.com/ui/jquery-ui-git.css" rel="stylesheet" type="text/css" />
 <script src="//code.jquery.com/jquery-git.js"></script>
-<script src="//code.jquery.com/ui/jquery-ui-git.js"></script><form class="form-horizontal">
+<script src="//code.jquery.com/ui/jquery-ui-git.js"></script>
+<form class="form-horizontal" style="backgroung:url(http://subtlepatterns.com/patterns/rockywall.png);">
   <script src="//code.jquery.com/jquery.min.js"></script>
 <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
 <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
@@ -30,13 +31,15 @@
     </div>
 
   <label class="Q">What is your gender？</label>
-  <p>  
+  <p class="container">
+    <div class="col-xs-6">
     <img src="https://s-media-cache-ak0.pinimg.com/736x/5c/15/08/5c1508ece01f9a3aa8459af56b23a5a1.jpg" class="Image1" >
     <input type="radio" name="gender" value="男"> 
-    <label >Male</label>
+    <label >Male</label></div>
+     <div class="col-xs-6">
     <img class="Image1"  src="http://elite.tut.edu.tw/web2.0/gallery/gallery2/main.php?g2_view=core.DownloadItem&amp;g2_itemId=87497&amp;g2_serialNumber=2" >
     <input type="radio" name="gender" value="女">
-    <label>Female</label>
+    <label>Female</label></div>
   </p>
   <div class="afterImage1"></div>
 
@@ -79,9 +82,9 @@
 </p>
 
   <label class="Q"> What is the highest level of education you have completed? </label>
-  <ul class="edu">
     <div class="container">
   <div class="row">
+  <ul class="edu">
     <div class="col-sm-4">
    <li type="none"><a class="pure-button pure-button-active" href="#">
     <input type="radio" name="edu" value="小">
@@ -94,12 +97,12 @@
    <li type="none"><a class="pure-button pure-button-active" href="#">
     <input type="radio" name="edu" value="大">
     <label>Attended College / University</label>
-   </li></a></div>
-  <div class="col-sm-4">
+   </li></a>
    <li type="none"><a class="pure-button pure-button-active" href="#">
     <input type="radio" name="edu" value="相">
     <label>Associate degree</label>
-   </li></a>
+   </li></a></div>
+<div class="col-sm-6">
    <li type="none"><a class="pure-button pure-button-active" href="#">
     <input type="radio" name="edu" value="碩">
     <label>Bachelor`s degree</label>
@@ -107,8 +110,7 @@
    <li type="none"><a class="pure-button pure-button-active" href="#">
     <input type="radio" name="edu" value="M">
     <label>Master`s degree</label>
-   </li></a></div>
-<div class="col-sm-4">
+   </li></a>
    <li type="none"><a class="pure-button pure-button-active" href="#">
     <input type="radio" name="edu" value="教">
     <label>Professional degree</label>
@@ -120,10 +122,9 @@
    <li type="none"><a class="pure-button pure-button-active" href="#">
     <input type="radio" name="edu" value="無">
     <label>I prefer not to answer</label>
-   </li></a></div></div>
-</div>
+   </li></a></div>
   </ul>
-
+</div>
  <div class="two fields">
     <div class="field">
   <label class="Q">Which industry do you work in or are most involved with?</label>
@@ -147,7 +148,7 @@
       <span id="inputSuccess3Status" class="sr-only"></span>
   </div>
 <div class="control-label">
-  <label class="Q" for="inputSuccess3">Email address<i class="fa fa-mobile"></i></label>
+  <label class="Q" for="inputSuccess3">Email address</label>
       <input type="email" class="form-control" id="inputSuccess3" aria-describedby="inputSuccess3Status" placeholder="Email" required="required"/>
       <span class="glyphicon glyphicon-ok form-control-feedback" aria-hidden="true"></span>
       <span id="inputSuccess3Status" class="sr-only"></span>
